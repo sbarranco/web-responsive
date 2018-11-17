@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+$primary-color: #84a1be;
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $primary-color
+}
+
+%common-div{
+  width: 50vw;
+  height: 50vh;
+  background: #000;
+}
+
+.div-1 {
+
+
+
+  img{
+    max-width: 20%;
+  }
+}
+
+.div-2{
+
+
+  .img{
+    max-width: 50%;
+    transition: all 1s;
+
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+}
+
